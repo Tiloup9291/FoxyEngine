@@ -1,0 +1,6 @@
+# Plan 2x2 (4 sommets, 1 quad avec indices relatifs negatifs -> 2 triangles)
+v -1 0 -1
+v 1 0 -1
+v 1 0 1
+v -1 0 1
+f -4 -3 -2 -1

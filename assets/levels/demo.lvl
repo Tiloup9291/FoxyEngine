@@ -1,0 +1,11 @@
+# Demo level: decor + platform + wall (all collidable).
+name=demo
+spawn=0,2,2
+ground=0
+# model,x,y,z,yawDeg,scale[,collide]
+entity=cube,3,0.5,-2,15,1.0,collide
+entity=pyramid,-3,0.6,1,0,1.2,collide
+entity=plane,0,-0.01,0,0,10.0
+# Explicit static boxes: cx,cy,cz,sx,sy,sz
+static=2.5,0.25,-2.5,2,0.5,2
+static=-3,1.0,-4,1,2,0.5
